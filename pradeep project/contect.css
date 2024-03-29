@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body{
+      margin: 0px;
+      padding: 0px;
+      height:auto;
+      width: auto;
+    }
+   
+  .nav a{
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 50px 20px;  
+  }
+  .nav a:hover{
+    color: rgb(113, 238, 245);
+  }
+  .d2{
+      text-align: center;
+  }
+  h1{
+      color:  crimson;
+      text-align:  center;
+      margin-left: 40px;
+  }
+  h2{
+      color:crimson;
+      padding-left: 20px;
+      text-align: left;
+  }
+  h3{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  h3 a{
+      text-decoration: none;
+      font-style: bold;
+  }
+  .d2 img{
+    height: 40vh;
+    width: 40vh;
+  }
+  
+   
+  .nav{
+    background-color: rgb(21, 21, 56);
+  }
+  .logo{
+    display: flex;
+    color: white;
+     
+  }
+  .left{
+    display: flex;
+    margin-inline: 20px;
+    padding-left: 10px;
+  }
+  .logo img{
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px 10px;
+    border: 5px solid orange;
+  }
+  .left p{
+    font-size: 25px;
+    padding: 25px 10px;
+    font-weight: bold;
+  }
+  .right {
+    justify-content: right;
+    display: flex;
+    width: 100%;
+  }
+  .right p{
+    padding: 25px 10px;
+  }
+  .footer{
+    background-color: rgb(36, 36, 70);
+    height: 30px;
+  }
+  .footer p{
+    color: white;
+    text-align: center;
+  }
+   
+  
